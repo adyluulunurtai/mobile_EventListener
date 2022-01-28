@@ -5,16 +5,25 @@ window.addEventListener('DOMContentLoaded', ()=>{
     box.addEventListener("touchstart", (e)=>{
         e.preventDefault();
         console.log("start")
-    })
+        console.log(e.touches);
+        console.log(e.targetTouches);
+        console.log(e.changedTouches);
+    });
 
     
     box.addEventListener("touchmove", (e)=>{
-        e.preventDefault();
-        console.log("move")
-    })
+        e.preventDefault();touches
+        //console.log("move")
+    });
 
     box.addEventListener("touchend", (e)=>{
         e.preventDefault();
-        console.log("end")
-    })
+        //console.log("end")
+    });
+
+
+    //SVOISTVA:
+    //touches
+    //targetTouches
+    //changedTouches
 })
