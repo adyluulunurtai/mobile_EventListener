@@ -4,6 +4,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     box.addEventListener("touchstart", (e)=>{
         e.preventDefault();
-        console.log("wto to")
+        console.log("start")
+    })
+
+    
+    box.addEventListener("touchmove", (e)=>{
+        e.preventDefault();
+        console.log("move")
     })
 })
