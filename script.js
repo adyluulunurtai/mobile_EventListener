@@ -12,4 +12,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
         e.preventDefault();
         console.log("move")
     })
+
+    box.addEventListener("touchend", (e)=>{
+        e.preventDefault();
+        console.log("end")
+    })
 })
